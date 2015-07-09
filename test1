@@ -1,0 +1,7 @@
+(define (aplusb a b)
+  (+ a b))
+(define (square a)
+  (* a a))
+(define (sum-of-square a b)
+  (+ (* a a)
+     (* b b)))
