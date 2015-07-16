@@ -1,0 +1,5 @@
+(define (even a) (= (remainder a 2) 0))
+(define (qsm a b)
+  (cond ((= b 0) 1)
+        ((even b) (qsm a (/ 2 b)))
+        (else (* b (qsm a (- b 1))))))
