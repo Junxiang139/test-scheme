@@ -1,0 +1,7 @@
+(define (cons1 x y)
+  (define (dispatch m)
+    (cond ((= m 0) x)
+          ((= m 1) y)
+          (else (error "D**ned mot**r f**ker" m)))))
+(define (car1 z) (z 0))
+(define (cdr1 z) (z 1))
