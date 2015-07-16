@@ -1,0 +1,3 @@
+(define onetofour (list 1 2 3 4))
+(define oddlist (list 1 3 5 7))
+(define sqaurelist (list 1 4 9 16))
